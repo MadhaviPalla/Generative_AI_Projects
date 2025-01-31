@@ -52,7 +52,7 @@ Correct answer:
     custom_prompt_temp = PromptTemplate(template=prompt_temp,
                             input_variables=['context', 'question'])
     llm = CTransformers(
-                model = "C:\Users\Madhavi\Downloads\Medbot\src\llama2-7b-llama_cpp-ggmlv3-q4_1",
+                model = "res\llama-2-7b-chat.ggmlv3.q4_1.bin",
                 model_type="llama",
                 max_new_tokens = 512,
                 temperature = 0.9
